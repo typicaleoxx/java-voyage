@@ -3,8 +3,14 @@ import java.util.*;
 
 public class UserInput {
     public static void main(String[] args) {
+        //Input
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
+        // nextLine for string only
+        // for int nextInt
+        // for float nextFloat
+        int age = sc.nextInt();
         System.out.println(name);
+        System.out.println(age);
     }
 }
